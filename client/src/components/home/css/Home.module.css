@@ -1,0 +1,256 @@
+.h1{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(101, 112, 235);
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+  }
+
+  .selectAndButton{  /* aca lo que haga es lo que esta en ese div lo mueve hacia arriba y lo deja fijo */
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(183, 218, 221);
+    display: flex;
+    position: fixed; /* lo dejo fijo */
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: auto;
+    font-family: 'Cookie', cursive;
+}
+
+
+.reload{
+    font-family: 'Cookie', cursive;
+    margin-right: auto;
+    margin-left: 3%;
+    font-size: 20px;
+    color: blue;
+}
+.reload:hover{
+    color: white;
+}
+
+.create:hover{
+    font-family: 'Cookie', cursive;
+    font-size: 15px;
+    color: rgb(255, 251, 251);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; 
+  }
+  .balance2{
+   box-sizing: border-box;
+   text-align: center;
+    padding: 30px;
+    padding-left: 100px; /*aumento el tamaño hacia a la izquierda  */
+    padding-right: 100px; /*aumento el tamaño hacia a la derecha  */
+    font-size: 30px; 
+    background-position: center center;
+    color: rgb(101, 112, 235);
+    font-family: 'Cookie', cursive;
+    box-shadow: 2px 2px 2px 2px rgb(93, 92, 92);
+    background-color: rgb(204, 218, 218);
+    border-radius: 15px;
+  }
+
+
+.divCard{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.card{
+    border: 1px solid rgb(184, 238, 153); 
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: inline-block; /*lo deja en fila tipo en bloke, en este caso fila de 3  */
+    margin: 3%;
+    /* padding: 1em; */
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    vertical-align: top;
+    width: 33,5%; /* hace que la fila este ordenada  */
+    /* background-color: white; */
+    box-shadow: 2px 2px 2px 2px rgba(92, 112, 92, 0.753);
+}
+.card:hover{ /*cambia cuando se toca el pais  */
+    border: 1px solid #999; 
+    background-color: rgba(118, 196, 122, 0.151);
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+.cardEgreso{
+    border: 1px solid rgb(240, 141, 141); 
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: inline-block; /*lo deja en fila tipo en bloke, en este caso fila de 3  */
+    margin: 3%;
+    /* padding: 1em; */
+    padding: 30px;
+    vertical-align: top;
+    width: 33,5%; /* hace que la fila este ordenada  */
+    /* background-color: white; */
+    box-shadow: 2px 2px 2px 2px rgba(112, 92, 92, 0.753);
+}
+.cardEgreso:hover{ /*cambia cuando se toca el pais  */
+    border: 1px solid #999; 
+    background-color: rgba(245, 96, 86, 0.151);
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+
+.paginado{
+     display: flex;
+    display: inline-block;
+    justify-content:center;
+    margin-left: 35%;
+    margin-right: 35%; 
+    margin-bottom: 1%;
+}
+
+.paginadoButton{
+    padding-left: 5px;/* agrando el button hacia la izquierda  */
+    padding-right: 5px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+    font-family: 'Cookie', cursive;
+    background-color: rgb(43, 109, 207);
+    cursor: pointer;
+}
+
+.paginadoButton:hover{
+    background-color: rgba(90, 177, 185, 0.459);
+    color: white;
+    padding-left: 5px;/* agrando el button hacia la izquierda  */
+    padding-right: 5px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+}
+
+.notOperation{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imag{
+    margin-top: 0.5%;
+    display:block; /*centro la imagen  */
+    margin-left: auto; /*centro la imagen  */
+    margin-right: auto; /*centro la imagen  */
+    border-radius: 9999px;
+    cursor: progress;
+    height:65vh ;
+}
+
+
+
+
+
+/*aca comienza modificacion para que sea responsive  */
+
+@media screen and (max-width: 1400px) {
+    .balance2 {
+        padding: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .balance2 {
+        /* width: 40vw; */
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .balance2 {
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .h1 {
+        margin-top: 5%;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .h1 {
+        margin-top: 6%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .h1 {
+        margin-top: 8%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .h1 {
+        margin-top: 11%;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .divCard {
+        margin-left: 25%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .divCard {
+        margin-left: 35%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .divCard {
+        /* margin-left: 100%; */
+        /* font-size: 2rem; */
+        margin-left: 25%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .divCard {
+        /* margin-top: 15%; */
+        /* font-size: 2rem; */
+        margin-left: 20%;
+    }
+}
+

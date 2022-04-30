@@ -1,0 +1,74 @@
+.name{   /* cambio el formato del titulo  */
+    
+    font-family: 'Cookie', cursive;
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-top: -10px;
+    /* height: 60px; */
+    /* margin-bottom: 10%; */
+}
+
+.nameLong{
+    font-size: 17px;
+    font-family: 'Cookie', cursive;
+}
+
+
+
+
+.button{
+    background-color: rgba(233, 142, 119, 0.947);
+    padding-left: 10px;/* agrando el button hacia la izquierda  */
+    padding-right: 10px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+    font-family: 'Cookie', cursive;
+    cursor: pointer;
+}
+.button:hover{   /*cambia el botton cuando el mouse pasa por ahi  */
+    background-color: rgb(238, 73, 61);
+    color: rgb(249, 249, 249);
+    padding-left: 10px;/* agrando el button hacia la izquierda  */
+    padding-right: 10px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+    border: none;
+}
+
+.buttonModify{
+    background-color: rgba(96, 141, 207, 0.475);
+    padding-left: 10px;/* agrando el button hacia la izquierda  */
+    padding-right: 10px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+    font-family: 'Cookie', cursive;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-right: 5px;
+}
+.buttonModify:hover{
+    background-color: rgb(39, 115, 230);
+    color: rgb(240, 230, 230);
+    padding-left: 10px;/* agrando el button hacia la izquierda  */
+    padding-right: 10px; /* agrando el button hacia la derecha */
+    padding-top: 5px; /*agrando el button hacia arriba  */
+    padding-bottom: 5px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+    border: none;
+}
+
+
+.leter{   /* cambio el formato del titulo  */
+    font-family: 'Cookie', cursive;
+    font-size: 15px;
+    /* margin-top: -2%;      */
+}
+
+.leterAndCategory{   /* cambio el formato del titulo  */
+    font-family: 'Cookie', cursive;
+    font-size: 15px;
+    margin-top: -1px;     
+}

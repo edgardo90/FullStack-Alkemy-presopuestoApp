@@ -1,0 +1,25 @@
+.select{ /* modifico los select  */
+    color: black;
+    border-radius: 10px;
+    /* border: none; */
+    /* border:ridge  ; */
+    border-color: black;
+    font-family: 'Cookie', cursive;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.select:hover{ /*cambia cuando toco los select  */
+    background-color: rgba(118, 219, 226, 0.623);
+    color: white;
+    padding-left: 5px;/* agrando el button hacia la izquierda  */
+    padding-right: 5px; /* agrando el button hacia la derecha */
+    padding-top: 2px; /*agrando el button hacia arriba  */
+    padding-bottom: 2px; /* agrando el button hacia abajo */
+    border-radius: 15px;
+}
+
+.letter:hover{
+    font-family: 'Cookie', cursive;
+    font-size: 15px;
+    color: rgb(255, 251, 251);
+}
