@@ -3,6 +3,7 @@
 Deployado base de datos con heroku y front con vercel.
 
 Link de la pagina:  https://presopuesto-app.vercel.app/
+
 Usuario: ejemplo@gmail.com , contraseña: ataque77
 
 Link del repositorio proyecto inicial: https://github.com/edgardo90/challenge-FullStack-JS-Alkemy
